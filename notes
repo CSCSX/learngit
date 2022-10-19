@@ -1,0 +1,19 @@
+git config --global user.name "..."
+git config --global user.email "..."
+
+git add filename
+git commit -m "{statement}"
+git status
+
+git log
+git log --pretty=oneline
+ 
+if current verion is HEAD
+the second to last version is HEAD^
+the third to last versino if HEAD^^
+similarly, HEAD~i, i is a number
+
+git reset --hard HEAD^^
+git reset --hard {commit id}
+
+git reflog
