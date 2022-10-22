@@ -17,3 +17,5 @@ git reset --hard HEAD^^
 git reset --hard {commit id}
 
 git reflog
+
+git checkout -- {filename}
